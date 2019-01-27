@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  DubizzleTestAutomationExample
+//  TestAutomationExampleIOS
 //
 //  Created by Satheesh Kumar on 1/27/19.
 //  Copyright © 2019 Satheesh Kumar. All rights reserved.

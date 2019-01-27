@@ -1,6 +1,6 @@
 //
-//  DubizzleTestAutomationExampleUITests.swift
-//  DubizzleTestAutomationExampleUITests
+//  TestAutomationExampleUITests.swift
+//  TestAutomationExampleUITests
 //
 //  Created by Satheesh Kumar on 1/27/19.
 //  Copyright © 2019 Satheesh Kumar. All rights reserved.
@@ -8,7 +8,7 @@
 
 import XCTest
 
-class DubizzleTestAutomationExampleUITests: XCTestCase {
+class TestAutomationExampleUITests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.

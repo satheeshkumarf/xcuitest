@@ -12,8 +12,7 @@
 		0302064D21FDB0A00005E541 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0302064B21FDB0A00005E541 /* Main.storyboard */; };
 		0302064F21FDB0A10005E541 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0302064E21FDB0A10005E541 /* Assets.xcassets */; };
 		0302065221FDB0A10005E541 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0302065021FDB0A10005E541 /* LaunchScreen.storyboard */; };
-		0302065D21FDB0A10005E541 /* DubizzleTestAutomationExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0302065C21FDB0A10005E541 /* DubizzleTestAutomationExampleTests.swift */; };
-		0302066821FDB0A10005E541 /* DubizzleTestAutomationExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0302066721FDB0A10005E541 /* DubizzleTestAutomationExampleUITests.swift */; };
+		0302066821FDB0A10005E541 /* TestAutomationExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0302066721FDB0A10005E541 /* TestAutomationExampleUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,10 +41,9 @@
 		0302065121FDB0A10005E541 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0302065321FDB0A10005E541 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0302065821FDB0A10005E541 /* DubizzleTestAutomationExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DubizzleTestAutomationExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0302065C21FDB0A10005E541 /* DubizzleTestAutomationExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DubizzleTestAutomationExampleTests.swift; sourceTree = "<group>"; };
 		0302065E21FDB0A10005E541 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0302066321FDB0A10005E541 /* DubizzleTestAutomationExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DubizzleTestAutomationExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0302066721FDB0A10005E541 /* DubizzleTestAutomationExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DubizzleTestAutomationExampleUITests.swift; sourceTree = "<group>"; };
+		0302066721FDB0A10005E541 /* TestAutomationExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAutomationExampleUITests.swift; sourceTree = "<group>"; };
 		0302066921FDB0A10005E541 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,9 +75,9 @@
 		0302063B21FDB0A00005E541 = {
 			isa = PBXGroup;
 			children = (
-				0302064621FDB0A00005E541 /* DubizzleTestAutomationExample */,
-				0302065B21FDB0A10005E541 /* DubizzleTestAutomationExampleTests */,
-				0302066621FDB0A10005E541 /* DubizzleTestAutomationExampleUITests */,
+				0302064621FDB0A00005E541 /* TestAutomationExample */,
+				0302065B21FDB0A10005E541 /* TAutomationExampleTests */,
+				0302066621FDB0A10005E541 /* TestAutomationExampleUITests */,
 				0302064521FDB0A00005E541 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,7 +92,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0302064621FDB0A00005E541 /* DubizzleTestAutomationExample */ = {
+		0302064621FDB0A00005E541 /* TestAutomationExample */ = {
 			isa = PBXGroup;
 			children = (
 				0302064721FDB0A00005E541 /* AppDelegate.swift */,
@@ -104,25 +102,24 @@
 				0302065021FDB0A10005E541 /* LaunchScreen.storyboard */,
 				0302065321FDB0A10005E541 /* Info.plist */,
 			);
-			path = DubizzleTestAutomationExample;
+			path = TestAutomationExample;
 			sourceTree = "<group>";
 		};
-		0302065B21FDB0A10005E541 /* DubizzleTestAutomationExampleTests */ = {
+		0302065B21FDB0A10005E541 /* TAutomationExampleTests */ = {
 			isa = PBXGroup;
 			children = (
-				0302065C21FDB0A10005E541 /* DubizzleTestAutomationExampleTests.swift */,
 				0302065E21FDB0A10005E541 /* Info.plist */,
 			);
-			path = DubizzleTestAutomationExampleTests;
+			path = TAutomationExampleTests;
 			sourceTree = "<group>";
 		};
-		0302066621FDB0A10005E541 /* DubizzleTestAutomationExampleUITests */ = {
+		0302066621FDB0A10005E541 /* TestAutomationExampleUITests */ = {
 			isa = PBXGroup;
 			children = (
-				0302066721FDB0A10005E541 /* DubizzleTestAutomationExampleUITests.swift */,
+				0302066721FDB0A10005E541 /* TestAutomationExampleUITests.swift */,
 				0302066921FDB0A10005E541 /* Info.plist */,
 			);
-			path = DubizzleTestAutomationExampleUITests;
+			path = TestAutomationExampleUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,7 +201,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0302063F21FDB0A00005E541 /* Build configuration list for PBXProject "DubizzleTestAutomationExample" */;
+			buildConfigurationList = 0302063F21FDB0A00005E541 /* Build configuration list for PBXProject "TestAutomationExample" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -265,7 +262,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0302065D21FDB0A10005E541 /* DubizzleTestAutomationExampleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0302066821FDB0A10005E541 /* DubizzleTestAutomationExampleUITests.swift in Sources */,
+				0302066821FDB0A10005E541 /* TestAutomationExampleUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,12 +429,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = DubizzleTestAutomationExample/Info.plist;
+				INFOPLIST_FILE = TestAutomationExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = dubizzle.sample.tests.DubizzleTestAutomationExample;
+				PRODUCT_BUNDLE_IDENTIFIER = dubizzle.sample.tests.TestAutomationExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -450,12 +446,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = DubizzleTestAutomationExample/Info.plist;
+				INFOPLIST_FILE = TestAutomationExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = dubizzle.sample.tests.DubizzleTestAutomationExample;
+				PRODUCT_BUNDLE_IDENTIFIER = dubizzle.sample.tests.TestAutomationExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -543,7 +539,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0302063F21FDB0A00005E541 /* Build configuration list for PBXProject "DubizzleTestAutomationExample" */ = {
+		0302063F21FDB0A00005E541 /* Build configuration list for PBXProject "TestAutomationExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0302066A21FDB0A10005E541 /* Debug */,
